@@ -33,7 +33,7 @@ public class BossController : EnemyController
     }
     void Update()
     {
-        if (Time.time - currentTime >= TimeBossShoot && turn <4)
+        if (Time.time - currentTime >= TimeBossShoot && turn <3)
         {
             turn++;
             currentTime = Time.time;
@@ -53,7 +53,7 @@ public class BossController : EnemyController
                 }
                 StartCoroutine(ExampleCoroutine(i*0.15f,clone,rotate));
             }
-        }else if(turn == 4)
+        }else if(turn == 3)
         {
             turn = 1;
             GetRanBullet();
@@ -76,7 +76,6 @@ public class BossController : EnemyController
     }
     protected override void OnDie()
     {
-        Debug.Log("Die");
         ObServer.Instance.Notify(TOPICNAME.BOSS_DIE, this);
         Explosion explosion =  Create.Instance.CreateExplosionSpace(transform);
         explosion.transform.localScale = new Vector3(2, 2, 0);

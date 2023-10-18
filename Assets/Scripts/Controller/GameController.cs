@@ -56,19 +56,17 @@ public class GameController : MonoBehaviour
     }
     void OnBossDie(object data)
     {
-        Debug.Log("Call");
         BossController enemy = (BossController)data;
 
-        Create.Instance.CreateItem(GetRandomPos(enemy.gameObject.transform.position, 1.25f), ITEMNAME.GOLD_ITEM);
-        Create.Instance.CreateItem(GetRandomPos(enemy.gameObject.transform.position, 1.25f), ITEMNAME.HP_ITEM);
-        Create.Instance.CreateItem(GetRandomPos(enemy.gameObject.transform.position, 1.25f), ITEMNAME.POWER_UP_ITEM);
-        Create.Instance.CreateItem(GetRandomPos(enemy.gameObject.transform.position, 1.25f), ITEMNAME.POWER_UP_ITEM);
+        Create.Instance.CreateItem(GetRandomPos(enemy.gameObject.transform.position, 1.75f), ITEMNAME.GOLD_ITEM);
+        Create.Instance.CreateItem(GetRandomPos(enemy.gameObject.transform.position, 1.75f), ITEMNAME.HP_ITEM);
+        Create.Instance.CreateItem(GetRandomPos(enemy.gameObject.transform.position, 1.75f), ITEMNAME.POWER_UP_ITEM);
+        Create.Instance.CreateItem(GetRandomPos(enemy.gameObject.transform.position, 1.75f), ITEMNAME.POWER_UP_ITEM);
 
 
         score += enemy.lvController.Level * 150;
         //textScore.text = "Score: " + score.ToString();
         textScoreDie.text = "Score: " + score.ToString();
-        Debug.Log("Call");
     }
     Vector3 GetRandomPos(Vector3 position, float rangeRandom)
     {
@@ -120,6 +118,7 @@ public class GameController : MonoBehaviour
     }
     public void LoadMainMenu()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(0);
     }
     public void OnExit()

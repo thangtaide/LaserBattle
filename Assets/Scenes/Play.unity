@@ -175,7 +175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cdSkill: {fileID: 1124215536}
-  timeCD: 20
+  timeCD: 3
 --- !u!114 &163874966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -713,7 +713,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cdSkill: {fileID: 1778832898}
-  timeCD: 15
+  timeCD: 3
 --- !u!114 &396538638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3415,7 +3415,7 @@ MonoBehaviour:
   prefabBullet: {fileID: 1000640522307980918, guid: 09e08db0f07355542b2a0e27f43e3a6a, type: 3}
   hpController: {fileID: 766257430}
   lvController: {fileID: 641121907}
-  timeToNextShoot: 0.35
+  timeToNextShoot: 0.25
   canTakeDame: 1
   currentDmg: 0
   moveJoystick: {fileID: 2003700054}

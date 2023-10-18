@@ -28,6 +28,7 @@ public class HpController : ProcessingController
             if(onDie != null)
             {
                 onDie();
+                Destroy(this);
             }
         }
     }
