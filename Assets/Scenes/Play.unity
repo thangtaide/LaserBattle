@@ -357,7 +357,7 @@ GameObject:
   m_Component:
   - component: {fileID: 337054072}
   m_Layer: 5
-  m_Name: PausePanel
+  m_Name: PauseButtonPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -769,7 +769,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &399830078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3553,8 +3553,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6486684297e14a44397436cfa30def14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minLimit: {x: -2.5, y: -4.5}
-  maxLimit: {x: 2.5, y: 4.5}
+  scaleLimitleft: 0.95
+  scaleLimitRight: 0.95
+  scaleLimitTop: 0.95
+  scaleLimitBottom: 0.95
+  minLimit: {x: 0.95, y: 0.95}
+  maxLimit: {x: 0.95, y: 0.95}
 --- !u!50 &1275785494
 Rigidbody2D:
   serializedVersion: 4

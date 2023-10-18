@@ -313,6 +313,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6486684297e14a44397436cfa30def14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scaleLimitleft: 0.95
+  scaleLimitRight: 0.95
+  scaleLimitTop: 0.95
+  scaleLimitBottom: 0
   minLimit: {x: -2, y: 0}
   maxLimit: {x: 2, y: 4}
 --- !u!114 &8097843598234668347

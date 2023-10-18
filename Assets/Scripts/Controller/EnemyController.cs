@@ -48,7 +48,6 @@ public class EnemyController : SpaceController
     }
     protected override void OnDie()
     {
-        Debug.Log("enemy die");
         ObServer.Instance.Notify(TOPICNAME.ENEMY_DIE, this);
         Create.Instance.CreateExplosionSpace(transform);
         PollingObject.DestroyPolling(this);
