@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class HpController : ProcessingController
 {
-    
+    bool activeOndie = false;
     public float HP
     {
         get { return maxValue; }
@@ -23,12 +23,12 @@ public class HpController : ProcessingController
     }
     protected override void OnChangeValue(float value)
     {
-        if(value == 0)
+        if(value == 0 && !activeOndie)
         {
             if(onDie != null)
             {
+                activeOndie = true;
                 onDie();
-                Destroy(this);
             }
         }
     }

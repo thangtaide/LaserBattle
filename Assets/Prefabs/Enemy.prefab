@@ -374,7 +374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 060c355cc384b5c4c8d9b735ddd3edd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2
   prefabBullet: {fileID: 3586430162686614711, guid: daa22d2c4ac05dd479a0f311ad5cbc7f, type: 3}
   hpController: {fileID: 2586801324746579021}
   lvController: {fileID: 7778518867269594210}
