@@ -1,0 +1,10 @@
+{
+    "data": [{
+        "assemblyName": "Assembly-CSharp",
+        "type": "GoldController",
+        "typeInfo": "GoldInfo",
+        "data": {
+            "gold": 100
+        }
+    }]
+}

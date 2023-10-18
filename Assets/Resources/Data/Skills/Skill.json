@@ -1,0 +1,20 @@
+{
+    "data": {
+        "conditions": [{
+            "assemblyName": "Assembly-CSharp",
+            "type": "CountDownCondition",
+            "typeInfo": "CountDownInfo",
+            "data": {
+                "timeCountDown": 5
+            }
+        }],
+        "handles": [{
+            "assemblyName": "Assembly-CSharp",
+            "type": "AddObjectHandle",
+            "typeInfo": "AddObjectInfo",
+            "data": {
+                "path": "Objects/Bullet"
+            }
+        }]
+    }
+}

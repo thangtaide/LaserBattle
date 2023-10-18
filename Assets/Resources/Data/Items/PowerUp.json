@@ -1,0 +1,10 @@
+{
+    "data": [{
+        "assemblyName": "Assembly-CSharp",
+        "type": "PowerUpItemController",
+        "typeInfo": "LevelPowerUp",
+        "data": {
+            "level": 1
+        }
+    }]
+}
