@@ -1,0 +1,11 @@
+{
+    "name": "lta.mapstage",
+    "displayName": "LTA  map stage game",
+    "version": "1.0.0",
+    "description": "LTA map stage in game",
+    "dependencies": {
+        "lta.designpattern": "1.0.0",
+        "lta.handsome.base": "1.0.3",
+        "lta.basesmartfox": "1.0.1"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "name": "lta.smartfoxnotifications",
+    "displayName": "LTA  SmartFox Notification",
+    "version": "1.0.0",
+    "description": "LTA SmartFox Notification",
+    "dependencies": {
+        "lta.designpattern": "1.0.0",
+        "lta.handsome.base": "1.0.3",
+        "lta.basesmartfox": "1.0.1",
+        "lta.notifications": "1.0.0"
+    }
+}

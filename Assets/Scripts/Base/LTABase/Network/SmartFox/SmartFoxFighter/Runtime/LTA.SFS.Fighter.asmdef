@@ -1,0 +1,20 @@
+{
+    "name": "LTA.SFS.Fighter",
+    "rootNamespace": "",
+    "references": [
+        "LTA.BaseItems",
+        "LTA.SFS.Base",
+        "LTA.Fight",
+        "LTA.SFS.Entites",
+        "LTA.SFS.Exp"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

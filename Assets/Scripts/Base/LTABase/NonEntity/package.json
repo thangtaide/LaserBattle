@@ -1,0 +1,9 @@
+{
+    "name": "lta.nonentity",
+    "displayName": "LTA Non Entity",
+    "version": "1.0.2",
+    "description": "LTA Non Entity",
+    "dependencies": {
+        "com.unity.textmeshpro": "3.0.6"
+    }
+}

@@ -5,7 +5,7 @@ using UnityEngine;
 
 public interface IHit
 {
-    void OnHit(BulletController bulletController);
+    void OnHit(float dmg);
 }
 public class BulletController : MonoBehaviour
 {
@@ -33,7 +33,7 @@ public class BulletController : MonoBehaviour
         IHit iHit = collision.gameObject.GetComponent<IHit>();
         if (iHit != null)
         {
-                iHit.OnHit(this);
+                iHit.OnHit(dmgBullet);
         }
         DestroyBullet();
     }

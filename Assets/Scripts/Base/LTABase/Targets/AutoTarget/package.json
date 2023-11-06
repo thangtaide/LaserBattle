@@ -1,0 +1,10 @@
+{
+    "name": "lta.autotarget",
+    "displayName": "LTA Auto Target",
+    "version": "1.0.2",
+    "description": "LTA Auto Target",
+    "dependencies": {
+        "lta.filtertarget": "1.0.0",
+        "lta.designpattern": "1.0.0"
+    }
+}

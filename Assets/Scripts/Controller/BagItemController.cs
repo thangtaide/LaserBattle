@@ -12,13 +12,13 @@ public class BagItemController : MonoBehaviour, IHit
         hideHP = GetComponentInChildren<HideHP>();
     }
 
-    public void OnHit(BulletController bulletController)
+    public void OnHit(float dmg)
     {
         if (hideHP != null)
         {
             hideHP.ShowAlpha();
         }
-        hpController.TakeDamage(bulletController.DmgBullet);
+        hpController.TakeDamage(dmg);
     }
     void OnOpen()
     {

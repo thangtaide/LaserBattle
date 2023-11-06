@@ -1,0 +1,22 @@
+{
+    "name": "LTA.Stamina",
+    "rootNamespace": "",
+    "references": [
+        "LTA.DesignPattern",
+        "LTA.Base",
+        "LTA.SFS.Base",
+        "LTA.BaseItems",
+        "Unity.TextMeshPro",
+        "LTA.UI",
+        "LTA.BaseStamina"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

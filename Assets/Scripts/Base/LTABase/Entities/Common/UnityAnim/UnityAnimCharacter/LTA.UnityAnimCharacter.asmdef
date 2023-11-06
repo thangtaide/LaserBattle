@@ -1,0 +1,16 @@
+{
+    "name": "LTA.UnityAnimCharacter",
+    "rootNamespace": "",
+    "references": [
+        "LTA.BaseCharacter"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

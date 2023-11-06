@@ -1,0 +1,13 @@
+{
+    "name": "lta.base.sfs.fighter",
+    "displayName": "LTA Base SmartFox Fighter",
+    "version": "1.0.1",
+    "description": "LTA Base SmartFox Fighter",
+    "dependencies": {
+        "lta.basesmartfox": "1.0.1",
+        "lta.base.sfs.entities": "1.0.0",
+        "lta.baseitem": "1.0.1",
+        "lta.fight": "1.0.0",
+        "lta.base.sfs.exp": "1.0.0"
+    }
+}

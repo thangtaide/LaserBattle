@@ -1,0 +1,19 @@
+{
+    "name": "LTA.HP",
+    "rootNamespace": "",
+    "references": [
+        "LTA.NonEntity",
+        "LTA.BaseVO",
+        "LTA.DesignPattern",
+        "LTA.Base"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,23 @@
+{
+    "name": "LTA.Market",
+    "rootNamespace": "",
+    "references": [
+        "LTA.BaseItems",
+        "LTA.UI",
+        "LTA.DesignPattern",
+        "LTA.Base",
+        "Unity.TextMeshPro",
+        "LTA.ListItemsHandle",
+        "LTA.NonEntity",
+        "LTA.BaseVO"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

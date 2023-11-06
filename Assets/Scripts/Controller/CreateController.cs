@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Base.DesignPattern;
+using UnityEngine.UIElements;
 
 public class ITEMNAME
 {
@@ -11,6 +12,7 @@ public class ITEMNAME
 }
 public class CreateController : MonoBehaviour
 {
+    [SerializeField] Transform[] prefabPlayer;
     [SerializeField] Vector3 rangeRandomMax;
     [SerializeField] Vector3 rangeRandomMin;
 
@@ -26,6 +28,13 @@ public class CreateController : MonoBehaviour
     [SerializeField] Explosion explosion;
     [SerializeField] Explosion explosionRocket;
     [SerializeField] Explosion explosionSpace;
+    private void Awake()
+    {
+        int player = GetInt("Player");
+        prefabPlayer[player].gameObject.SetActive(true);
+
+        
+    }
     private void Start()
     {
         cameraMain = Camera.main;
@@ -93,6 +102,14 @@ public class CreateController : MonoBehaviour
         else { x += cameraHalfWidth; }
         float y = Random.Range(cameraHalfHeigh, rangeRandomMax.y);
         return new Vector3(x, y, 0);
+    }
+    public int GetInt(string str)
+    {
+        return PlayerPrefs.GetInt(str, 0);
+    }
+    public void SetInt(string str, int i)
+    {
+        PlayerPrefs.SetInt(str, i);
     }
 }
 public class Create : SingletonMonoBehaviour<CreateController>

@@ -1,0 +1,9 @@
+{
+    "name": "lta.basevo",
+    "displayName": "LTA Base VO",
+    "version": "1.0.1",
+    "description": "LTA Base VO",
+    "dependencies": {
+        "lta.jsonsimple": "1.0.0"
+    }
+}

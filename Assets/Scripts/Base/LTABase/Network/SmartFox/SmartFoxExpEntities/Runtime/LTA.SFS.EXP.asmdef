@@ -1,0 +1,22 @@
+{
+    "name": "LTA.SFS.Exp",
+    "rootNamespace": "",
+    "references": [
+        "LTA.BaseItems",
+        "LTA.SFS.Base",
+        "LTA.Fight",
+        "LTA.SFS.Entites",
+        "LTA.DesignPattern",
+        "LTA.Base",
+        "LTA.BaseItemExp"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

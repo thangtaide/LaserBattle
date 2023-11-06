@@ -1,0 +1,9 @@
+{
+    "name": "lta.handsome.base",
+    "displayName": "LTA Base",
+    "version": "1.0.3",
+    "description": "LTA Base",
+    "dependencies": {
+        "lta.designpattern" : "1.0.0"
+    }
+}

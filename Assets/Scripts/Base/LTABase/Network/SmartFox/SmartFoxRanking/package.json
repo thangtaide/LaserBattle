@@ -1,0 +1,16 @@
+{
+    "name": "lta.ranking",
+    "displayName": "LTA ranking",
+    "version": "1.0.0",
+    "description": "LTA ranking",
+    "dependencies": {
+        "lta.designpattern": "1.0.0",
+        "lta.handsome.base": "1.0.3",
+        "lta.basesmartfox": "1.0.1",
+        "lta.baseitem" : "1.0.1",
+        "lta.baseitempackexp": "1.0.0",
+        "lta.ui": "1.0.1",
+        "lta.basevo" : "1.0.1",
+        "lta.base.ranking" : "1.0.0"
+    }
+}

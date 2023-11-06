@@ -1,0 +1,21 @@
+{
+    "name": "LTA.LTAPopUp",
+    "rootNamespace": "",
+    "references": [
+        "LTA.DesignPattern",
+        "LTA.Base",
+        "LTA.UI",
+        "Unity.TextMeshPro",
+        "LTA.Effect",
+        "LTA.BaseVO"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,11 @@
+{
+    "name": "lta.basesmartfox",
+    "displayName": "LTA Base Smart Fox",
+    "version": "1.0.1",
+    "description": "LTA Base Smart Fox",
+    "dependencies": {
+        "lta.loading":"1.0.0",
+        "lta.designpattern": "1.0.0",
+        "lta.popup":"1.0.0"
+    }
+}

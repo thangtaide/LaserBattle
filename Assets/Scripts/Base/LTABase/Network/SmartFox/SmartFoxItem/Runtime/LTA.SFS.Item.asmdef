@@ -1,0 +1,20 @@
+{
+    "name": "LTA.SFS.Item",
+    "rootNamespace": "",
+    "references": [
+        "LTA.BaseItems",
+        "LTA.SFS.Base",
+        "LTA.SFS.Entites",
+        "LTA.DesignPattern",
+        "LTA.Base"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

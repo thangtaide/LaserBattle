@@ -1,0 +1,19 @@
+{
+    "name": "LTA.SFS.GameRoom",
+    "rootNamespace": "",
+    "references": [
+        "GUID:1521f09c866144b76aa3380104efb91f",
+        "GUID:845a8042589e14d0f9865ed143516ac9",
+        "GUID:13360830be2064677a5c6cb5bcbb8a26",
+        "GUID:8c94ae07ccc1040fcbfb899d2116cd87"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

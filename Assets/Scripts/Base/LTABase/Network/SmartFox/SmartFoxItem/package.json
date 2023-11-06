@@ -1,0 +1,13 @@
+{
+    "name": "lta.base.sfs.items",
+    "displayName": "LTA Base SmartFox Items",
+    "version": "1.0.1",
+    "description": "LTA Base SmartFox Items",
+    "dependencies": {
+        "lta.basesmartfox": "1.0.1",
+        "lta.base.sfs.entities": "1.0.0",
+        "lta.baseitem": "1.0.1",
+        "lta.designpattern": "1.0.0",
+        "lta.handsome.base" : "1.0.3"
+    }
+}

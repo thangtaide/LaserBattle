@@ -1,3 +1,4 @@
+using Base.DesignPattern;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,6 +19,7 @@ public class EffectHPController : MonoBehaviour, ItemEffect
         HpController hpController = GetComponentInChildren<HpController>();
         hpController.CurrentValue += info.hp;
         SoundController.instance.PlaySound("power_up_sound");
+        ObServer.Instance.Notify(TOPICNAME.INCREASE_HP);
         Destroy(this);
         
     }

@@ -1,0 +1,12 @@
+{
+    "name": "lta.assetbundle",
+    "displayName": "LTA AssetBundle",
+    "version": "1.0.0",
+    "description": "LTA Asset Bundle",
+    "dependencies": {
+        "lta.jsonsimple": "1.0.0",
+        "lta.basevo":"1.0.1",
+        "lta.loading": "1.0.0",
+        "lta.popup": "1.0.0"
+    }
+}

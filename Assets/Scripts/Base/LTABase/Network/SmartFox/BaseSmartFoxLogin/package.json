@@ -1,0 +1,12 @@
+{
+    "name": "lta.baselogin",
+    "displayName": "LTA Base Login",
+    "version": "1.0.1",
+    "description": "LTA Base Login",
+    "dependencies": {
+        "lta.basesmartfox": "1.0.1",
+        "lta.designpattern": "1.0.0",
+        "lta.loading": "1.0.0",
+        "lta.popup": "1.0.0"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "lta.sounds",
+    "displayName": "LTA Sounds",
+    "version": "1.0.0",
+    "description": "LTA Sounds",
+    "dependencies": {
+        "lta.designpattern": "1.0.0"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "lta.unitycharacter",
+    "displayName": "LTA Unity Character",
+    "version": "1.0.0",
+    "description": "LTA Unity Character",
+    "dependencies": {
+        "lta.basecharacter": "1.0.1"
+    }
+}

@@ -79,6 +79,7 @@ public class BossController : EnemyController
         ObServer.Instance.Notify(TOPICNAME.BOSS_DIE, this);
         Explosion explosion =  Create.Instance.CreateExplosionSpace(transform);
         explosion.transform.localScale = new Vector3(2, 2, 0);
+        SoundController.instance.PlaySound("ExplosionEffect");
         Destroy(gameObject);
     }
 }

@@ -1,0 +1,17 @@
+{
+    "name": "LTA.AutoTarget",
+    "rootNamespace": "",
+    "references": [
+        "LTA.FilterTarget",
+        "LTA.DesignPattern"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

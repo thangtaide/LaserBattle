@@ -1,0 +1,12 @@
+{
+    "name": "lta.network",
+    "displayName": "LTA Network",
+    "version": "1.0.2",
+    "description": "LTA Network",
+    "dependencies": {
+        "lta.designpattern": "1.0.0",
+        "lta.loading": "1.0.0",
+        "lta.popup": "1.0.0",
+        "lta.jsonsimple": "1.0.0"
+    }
+}

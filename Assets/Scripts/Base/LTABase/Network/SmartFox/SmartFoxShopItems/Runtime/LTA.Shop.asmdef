@@ -1,0 +1,20 @@
+{
+    "name": "LTA.Shop",
+    "rootNamespace": "",
+    "references": [
+        "LTA.DesignPattern",
+        "LTA.Base",
+        "LTA.SFS.Base",
+        "LTA.BaseItems",
+        "LTA.SFS.Entites"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

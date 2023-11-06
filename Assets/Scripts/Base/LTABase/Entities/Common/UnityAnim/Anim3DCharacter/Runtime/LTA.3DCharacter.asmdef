@@ -1,0 +1,21 @@
+{
+    "name": "LTA.3DCharacter",
+    "rootNamespace": "",
+    "references": [
+        "LTA.NonEntity",
+        "LTA.DesignPattern",
+        "LTA.BaseVO",
+        "LTA.BaseCharacter",
+        "LTA.Base",
+        "LTA.UnityAnimCharacter"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

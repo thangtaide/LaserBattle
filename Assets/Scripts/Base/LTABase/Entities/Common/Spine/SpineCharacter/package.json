@@ -1,0 +1,12 @@
+{
+    "name": "lta.spinecharacter",
+    "displayName": "LTA Spine Character",
+    "version": "1.0.1",
+    "description": "LTA Spine Character",
+    "dependencies": {
+        "lta.designpattern": "1.0.0",
+        "lta.basevo": "1.0.0",
+        "lta.basecharacter": "1.0.1",
+        "lta.nonentity": "1.0.0"
+    }
+}

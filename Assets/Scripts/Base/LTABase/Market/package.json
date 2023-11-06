@@ -1,0 +1,17 @@
+{
+    "name": "lta.market",
+    "displayName": "LTA Market",
+    "version": "1.0.0",
+    "description": "LTA Market",
+    "dependencies": {
+        "lta.baseitem": "1.0.1",
+        "lta.basevo": "1.0.0",
+        "lta.designpattern": "1.0.0",
+        "lta.nonentity": "1.0.0",
+        "lta.handsome.base": "1.0.2",
+        "lta.listitems": "1.0.0",
+        "lta.listitemshandle": "1.0.0",
+        "lta.ui": "1.0.1",
+        "com.unity.textmeshpro": "3.0.6"
+    }
+}

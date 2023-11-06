@@ -1,0 +1,9 @@
+{
+    "name": "lta.base.sfs.entities",
+    "displayName": "LTA Base SmartFox Entites",
+    "version": "1.0.0",
+    "description": "LTA Base SmartFox Entites",
+    "dependencies": {
+        "lta.basesmartfox": "1.0.1"
+    }
+}

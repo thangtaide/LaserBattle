@@ -1,0 +1,12 @@
+{
+    "name": "lta.avatar",
+    "displayName": "LTA Avatar",
+    "version": "1.0.0",
+    "description": "LTA Avatar",
+    "dependencies": {
+        "lta.basevo": "1.0.0",
+        "lta.designpattern": "1.0.0",
+        "lta.nonentity": "1.0.0",
+        "lta.handsome.base": "1.0.3"
+    }
+}

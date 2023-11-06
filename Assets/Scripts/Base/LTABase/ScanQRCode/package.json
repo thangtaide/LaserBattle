@@ -1,0 +1,9 @@
+{
+    "name": "lta.scanqrcode",
+    "displayName": "LTA Scan QR Code",
+    "version": "1.0.0",
+    "description": "LTA Scan QR Code",
+    "dependencies": {
+        "com.unity.textmeshpro": "3.0.6"
+    }
+}

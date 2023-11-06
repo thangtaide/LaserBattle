@@ -35,7 +35,10 @@ public class EnemyController : SpaceController
                 Player.Instance.OnHit(damage);
             }
         }
-
+        if(hpController.HP <= 0)
+        {
+            OnDie();
+        }
     }
     protected void GetRandomPosition()
     {
@@ -50,7 +53,8 @@ public class EnemyController : SpaceController
     {
         ObServer.Instance.Notify(TOPICNAME.ENEMY_DIE, this);
         Create.Instance.CreateExplosionSpace(transform);
-        PollingObject.DestroyPolling(this);
+        SoundController.instance.PlaySound("ExplosionEffect");
+        Destroy(gameObject);
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {

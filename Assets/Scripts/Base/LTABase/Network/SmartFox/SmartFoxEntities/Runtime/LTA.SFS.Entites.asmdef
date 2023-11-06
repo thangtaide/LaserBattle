@@ -1,0 +1,16 @@
+{
+    "name": "LTA.SFS.Entites",
+    "rootNamespace": "",
+    "references": [
+        "LTA.SFS.Base"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

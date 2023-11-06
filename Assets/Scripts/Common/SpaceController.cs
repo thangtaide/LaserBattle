@@ -38,7 +38,7 @@ public abstract class SpaceController : MoveController, IHit
     }
     protected virtual void Shoot()
     {
-        if (Time.time - spawnShoot > timeToNextShoot)
+        if (Time.time - spawnShoot > timeToNextShoot && prefabBullet != null)
         {
             spawnShoot = Time.time;
             BulletController clone = Create.Instance.CreateBullet(transform.position,transform.up, prefabBullet);
@@ -48,7 +48,7 @@ public abstract class SpaceController : MoveController, IHit
 
     }
 
-    public void OnHit(BulletController bulletController)
+    /*public void OnHit(BulletController bulletController)
     {
         if (canTakeDame)
         {
@@ -58,7 +58,7 @@ public abstract class SpaceController : MoveController, IHit
             }
             hpController.TakeDamage(bulletController.DmgBullet);
         }
-    }
+    }*/
     public void OnHit(float dmgTake)
     {
         if (canTakeDame)

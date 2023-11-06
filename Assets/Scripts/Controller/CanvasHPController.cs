@@ -15,8 +15,11 @@ public class CanvasHPController : MonoBehaviour
     }
     private void Awake()
     {
-        hPController = Player.Instance.GetComponentInChildren<HpController>();
         ObServer.Instance.AddObserver(TOPICNAME.PLAYER_DIE, OnPlayerDie);
+    }
+    private void Start()
+    {
+        hPController = Player.Instance.GetComponentInChildren<HpController>();
     }
     void OnPlayerDie(object data)
     {

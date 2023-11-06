@@ -1,0 +1,25 @@
+{
+    "name": "LTA.BaseItems",
+    "rootNamespace": "",
+    "references": [
+        "LTA.BaseVO",
+        "LTA.NonEntity",
+        "LTA.DesignPattern",
+        "JSONSimple",
+        "LTA.Base",
+        "LTA.FilterTarget",
+        "LTA.Condition",
+        "LTA.Avatar",
+        "LTA.AutoTarget",
+        "LTA.Entity"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

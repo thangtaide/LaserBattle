@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class HpController : ProcessingController
 {
-    bool activeOndie = false;
+    public bool activeOndie = false;
     public float HP
     {
         get { return maxValue; }

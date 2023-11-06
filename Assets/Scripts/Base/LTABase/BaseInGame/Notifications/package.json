@@ -1,0 +1,13 @@
+{
+    "name": "lta.notifications",
+    "displayName": "LTA Notifications",
+    "version": "1.0.0",
+    "description": "LTA Popup",
+    "dependencies": {
+        "lta.popup": "1.0.0",
+        "lta.ui": "1.0.1",
+        "lta.designpattern": "1.0.0",
+        "lta.handsome.base": "1.0.0",
+        "lta.effect": "1.0.0"
+    }
+}

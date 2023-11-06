@@ -1,0 +1,13 @@
+{
+    "name": "lta.base.reward",
+    "displayName": "LTA Base Reward",
+    "version": "1.0.0",
+    "description": "LTA Base Reward",
+    "dependencies": {
+        "lta.basesmartfox": "1.0.1",
+        "lta.designpattern": "1.0.0",
+        "lta.loading": "1.0.0",
+        "lta.popup" : "1.0.0",
+        "lta.baseitem" : "1.0.1"
+    }
+}

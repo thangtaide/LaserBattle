@@ -1,0 +1,19 @@
+{
+    "name": "LTA.UI",
+    "rootNamespace": "",
+    "references": [
+        "Unity.TextMeshPro",
+        "LTA.Base",
+        "LTA.DesignPattern",
+        "LTA.Effect"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

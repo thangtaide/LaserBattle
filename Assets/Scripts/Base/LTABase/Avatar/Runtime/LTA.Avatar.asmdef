@@ -1,0 +1,19 @@
+{
+    "name": "LTA.Avatar",
+    "rootNamespace": "",
+    "references": [
+        "LTA.Base",
+        "LTA.DesignPattern",
+        "LTA.BaseVO",
+        "LTA.NonEntity"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

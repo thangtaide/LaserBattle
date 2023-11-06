@@ -10,7 +10,8 @@ public class SoundController : MonoBehaviour
     Dictionary<string, AudioClip> dic_Name_AudioClip = new Dictionary<string, AudioClip>();
     private void Awake()
     {
-        if(instance == null)
+        Application.targetFrameRate = 60;
+        if (instance == null)
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
@@ -41,6 +42,16 @@ public class SoundController : MonoBehaviour
         audioSource.clip = dic_Name_AudioClip[musicName];
         audioSource.loop = true;
         audioSource.Play();
+    }
+    public void StopMusic(string musicName)
+    {
+        if (!dic_Name_AudioClip.ContainsKey(musicName))
+        {
+            Debug.LogError("music Name :" + musicName + " is not exist");
+            return;
+        }
+        audioSource.clip = dic_Name_AudioClip[musicName];
+        audioSource.Stop();
     }
 
     public void PlaySound(string soundName)

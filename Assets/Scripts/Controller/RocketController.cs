@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RocketController : BulletController
 {
-
+    [SerializeField] bool isRocket = true;
     FillerTargetController fillerTarget;
     [SerializeField] float rotationSpeed = 30f;
     private void Start()
@@ -30,7 +30,14 @@ public class RocketController : BulletController
 
     public override void DestroyBullet()
     {
-        Create.Instance.CreateExplosionRocket(transform);
+        if (isRocket)
+        {
+            Create.Instance.CreateExplosionRocket(transform);
+        }
+        else
+        {
+            Create.Instance.CreateExplosion(transform);
+        }
         Destroy(gameObject);
     }
 }

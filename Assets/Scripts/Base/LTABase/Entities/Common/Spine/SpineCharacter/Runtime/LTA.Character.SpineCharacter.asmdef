@@ -1,0 +1,30 @@
+{
+    "name": "LTA.Base.Character.SpineCharacter",
+    "rootNamespace": "",
+    "references": [
+        "GUID:845a8042589e14d0f9865ed143516ac9",
+        "GUID:68765d262e2128e4ab49c983f3411946",
+        "GUID:f5f2d3a2be3864ab9ae37928dcc62acb",
+        "GUID:2f62f65000f414ae99545f7b7c43d69f",
+        "GUID:cc3ca66afc176e94fbd47868072efad3",
+        "GUID:a6018548013f18a4da7c09dbdb3fe6de",
+        "GUID:72d1fea872bd7a449bf3818f2b0a6708",
+        "GUID:22fdb12d1fa297342b7807668a03e12f",
+        "GUID:32796d1a10d88764e93d813419a25bf2"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "Select...",
+            "expression": "",
+            "define": ""
+        }
+    ],
+    "noEngineReferences": false
+}

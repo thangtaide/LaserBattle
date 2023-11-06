@@ -1,0 +1,19 @@
+{
+    "name": "LTA.Network",
+    "rootNamespace": "",
+    "references": [
+        "LTA.DesignPattern",
+        "JSONSimple",
+        "LTA.LTALoading",
+        "LTA.LTAPopUp"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

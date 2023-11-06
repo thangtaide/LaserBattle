@@ -1,0 +1,18 @@
+{
+    "name": "LTA.BaseVO",
+    "rootNamespace": "",
+    "references": [
+        "JSONSimple",
+        "LTA.Base",
+        "LTA.DesignPattern"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

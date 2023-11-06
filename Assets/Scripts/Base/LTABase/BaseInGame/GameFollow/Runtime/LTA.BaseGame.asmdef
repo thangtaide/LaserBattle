@@ -1,0 +1,19 @@
+{
+    "name": "LTA.BaseGame",
+    "rootNamespace": "",
+    "references": [
+        "Unity.TextMeshPro",
+        "LTA.DesignPattern",
+        "LTA.UI",
+        "LTA.Base"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

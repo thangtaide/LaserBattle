@@ -1,0 +1,22 @@
+{
+    "name": "LTA.Reward",
+    "rootNamespace": "",
+    "references": [
+        "LTA.SFS.Base",
+        "LTA.DesignPattern",
+        "LTA.LTALoading",
+        "LTA.LTAPopUp",
+        "LTA.BaseItems",
+        "Unity.TextMeshPro",
+        "LTA.BaseReward"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

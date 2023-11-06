@@ -1,0 +1,12 @@
+{
+    "name": "lta.elements",
+    "displayName": "LTA Elements",
+    "version": "1.0.0",
+    "description": "LTA Elements",
+    "dependencies": {
+        "lta.basevo": "1.0.1",
+        "lta.designpattern": "1.0.0",
+        "lta.nonentity": "1.0.2"
+
+    }
+}

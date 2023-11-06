@@ -6,6 +6,8 @@ using static UnityEngine.GraphicsBuffer;
 
 public class PlayerController : SpaceController
 {
+    public static float multiDmg = 1f;
+    [SerializeField] float mulDmg = 1f;
     [SerializeField] JoystickController moveJoystick;
 
     [SerializeField] ShieldController shieldController;
@@ -17,6 +19,7 @@ public class PlayerController : SpaceController
     public int currenMoney;
     protected override void Awake()
     {
+        multiDmg *= mulDmg;
         base.Awake();
         currenMoney = 0;
         fireRocketSkill = GetComponentInChildren<FireRocketSkillController>();
@@ -25,11 +28,13 @@ public class PlayerController : SpaceController
     }
     void OnEnemyDie(object data)
     {
+        if(lvController== null) return;
         EnemyController enemy = (EnemyController)data;
         lvController.CurrentValue += enemy.lvController.Level * 10;
     }
     void OnBossDie(object data)
     {
+        if (lvController == null) return;
         BossController enemy = (BossController)data;
         lvController.CurrentValue += enemy.lvController.Level * 150;
     }
@@ -40,6 +45,8 @@ public class PlayerController : SpaceController
         ObServer.Instance.Notify(TOPICNAME.PLAYER_DIE, this);
         ObServer.Instance.RemoveObserver(TOPICNAME.PLAYER_DIE, OnEnemyDie);
         ObServer.Instance.RemoveObserver(TOPICNAME.BOSS_DIE, OnBossDie);
+
+        SoundController.instance.PlaySound("ExplosionEffect");
         SoundController.instance.PlaySound("GameOver");
         Destroy(gameObject);
     }
@@ -70,7 +77,7 @@ public class PlayerController : SpaceController
     }
     protected override void Shoot()
     {
-        if (Time.time - spawnShoot > timeToNextShoot)
+        if (Time.time - spawnShoot > timeToNextShoot && prefabBullet != null)
         {
             spawnShoot = Time.time;
             for(int i = 0; i < currentPower; i++)
@@ -96,10 +103,16 @@ public class PlayerController : SpaceController
         {
             SoundController.instance.PlaySound("LevelUp");
         }
+        if (lvController.Level > 1)
+        {
+            ObServer.Instance.Notify(TOPICNAME.LEVEL_UP, this);
+        }
     }
     protected override SpaceInfo GetSpaceInfor(int level)
     {
-        return DataManager.Instance.playerVO.GetSpaceInfo(level);
+        SpaceInfo spaceInfo = DataManager.Instance.playerVO.GetSpaceInfo(level);
+        spaceInfo.damage = (int)(spaceInfo.damage * multiDmg);
+        return spaceInfo;
     }
 
 }

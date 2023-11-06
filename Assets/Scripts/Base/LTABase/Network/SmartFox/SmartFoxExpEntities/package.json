@@ -1,0 +1,15 @@
+{
+    "name": "lta.base.sfs.exp",
+    "displayName": "LTA Base SmartFox Exp",
+    "version": "1.0.0",
+    "description": "LTA Base SmartFox Exp",
+    "dependencies": {
+        "lta.basesmartfox": "1.0.1",
+        "lta.base.sfs.entities": "1.0.0",
+        "lta.baseitem": "1.0.1",
+        "lta.fight": "1.0.0",
+        "lta.designpattern": "1.0.0",
+        "lta.handsome.base" : "1.0.3",
+        "lta.baseitempackexp": "1.0.0"
+    }
+}
